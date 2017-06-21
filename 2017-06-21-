@@ -1,0 +1,40 @@
+---
+title: # Creating and responding to a comment/text attachment step
+layout: post
+author: eduguidepfl
+permalink: /#-creating-and-responding-to-a-comment/text-attachment-step/
+source-id: 1rNyX0QJro9NgBG1LbTNEImyBXiQO2Xw1_AdtiANhKFI
+published: true
+---
+# Creating and responding to a comment/text attachment step
+
+![image alt text]({{ site.url }}/public/YUNCToxGB4sZ9vahLY8Nbw_img_0.png)
+
+## Adding a text Attachment to a Comment Step
+
+Given that I am in the Edit Comment Step form
+
+When I enter text into the content field
+
+And enter text into the text attachment field
+
+And click "Save"
+
+Then I am taken back to the activity's dashboard
+
+And the system responds, "Path step has been saved."
+
+## Completing the comment step with a text attachment
+
+### Previewing the Step
+
+When I complete the step
+
+Then the attached text appears
+
+### Completing the step inside the activity
+
+When I complete the step
+
+Then the attached text appears on the right hand side of the screen
+
